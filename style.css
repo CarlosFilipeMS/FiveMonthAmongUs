@@ -1,0 +1,90 @@
+@import url('https://fonts.cdnfonts.com/css/horizon');
+* { margin: 0; padding: 0; }
+
+body{
+    font-family: 'Horizon', sans-serif;                                          
+}
+
+.Nav-div{
+    background-color: rgb(0, 0, 0, 0.75);
+    color: white;
+    width: 90vw;
+    height: 15vh;
+    display: flex;
+    border-radius: 15px;
+    position:fixed;
+    top: 5vh;
+    left: 5vw;
+}
+.Logo{
+    padding: 1vh;
+    height: 13vh;
+    opacity: 0.8;
+}
+.Menu-div{
+    display: flex;
+    width: 90vw;
+    justify-content: space-between;
+}
+.Menu-links-div{
+    display: flex;
+    justify-content: space-around;
+    width: 40vw;
+    height: 8vh;
+    margin-top: 3.5vh;
+}
+
+.Menu-links-div a{
+    text-decoration: none;
+    padding: 1vw;
+    color: white;
+    border-radius: 10%;
+    font-size: 2.4vh;
+    font-weight: 500;
+}
+.Menu-links-div a:hover{
+    background-color: rgb(37, 37, 37, 0.35);
+    border-bottom:rgb(255, 255, 255) solid 5px;
+}
+.Bg-div{
+    height: 100vh;
+    background-image: url(FMAU-bg-ofc.png);
+    background-size: cover;
+}
+.Show a{
+    text-decoration: none;
+}
+.Show p:hover{
+    background-color: rgb(37, 37, 37, 0.5);
+    border-bottom:rgb(255, 255, 255) solid 5px;
+
+}
+
+.Show p{
+    text-align: center;
+    padding: 2vh;
+    width: 15vw;
+    background-color: rgb(0, 0, 0, 0.75);
+    position: relative;
+    top: 75vh;
+    left: 43vw;
+    opacity: 0.8;
+    border-radius: 8px;
+    color: white;
+    font-size: 4vh;
+}
+
+.Lore{
+    background-image: url(FMAU-bg-lore.png);
+    background-size: cover;
+    height: 120vh;
+    
+}
+.Texto-lore{
+    width: 50%;
+    position: relative;
+    left: 90vh;
+    top: 25vh;
+    font-size: 1.9vh;
+    color: white;
+}
